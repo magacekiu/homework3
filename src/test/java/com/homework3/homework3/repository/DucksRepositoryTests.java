@@ -22,6 +22,7 @@ class DucksRepositoryTests {
         ducksRepository = new DucksRepository();
     }
 
+
     @Test
     void addDuckTest() {
         Duck duck = new MallardDuck(); // Assuming MallardDuck extends Duck
